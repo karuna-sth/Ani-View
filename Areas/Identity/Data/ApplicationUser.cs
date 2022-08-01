@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
+using AniView.Models;
 using Microsoft.AspNetCore.Identity;
 
 namespace AniView.Areas.Identity.Data;
@@ -16,6 +17,8 @@ public class ApplicationUser : IdentityUser
     [PersonalData]
     [Column(TypeName = "VARCHAR(50)")]
     public string LastName { get; set; }
+
+    public List<Review> ReviewList { get; set; }
 
 }
 
