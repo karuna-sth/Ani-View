@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uKUFHF8GmpiLR4ZNUnJ72oX86aCPDL17Xc0gxqj9c14=",
+  "Hash": "iahPYWX9QUZZfD/658D3N9+Z9TwvxTucaXMOatJ5+lA=",
   "Source": "AniView",
   "BasePath": "_content/AniView",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\6th sem\\NCCPratical\\AniView\\wwwroot\\images\\Animes\\yelan.png",
+      "SourceId": "AniView",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\6th sem\\NCCPratical\\AniView\\wwwroot\\",
+      "BasePath": "_content/AniView",
+      "RelativePath": "images/Animes/yelan.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Animes\\yelan.png"
     },
     {
       "Identity": "D:\\6th sem\\NCCPratical\\AniView\\wwwroot\\js\\site.js",

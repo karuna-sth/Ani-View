@@ -6,12 +6,11 @@ namespace AniView.Models
     public class AnimeInfo
     {
         [Key]
-        [Required]
         public int AnimeId { get; set; }
         [Required]
         public string AnimeName { get; set; }
         public string? AnimeDescription { get; set; }
-        public byte[] Image { get; set; }
+        public string? Image { get; set; }
 
         public List<Review> ReviewList { get; set; }
     }
