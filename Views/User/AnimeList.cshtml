@@ -24,28 +24,28 @@
             <th></th>
         </tr>
     </thead>
-    <tbody>
+   <tbody>
 @foreach (var item in Model) {
-            var imageUrl = "/images/Animes/" + item.Image;
-            <tr>
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AnimeName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AnimeDescription)
+        </td>
+        <td>
+                    <img class="float-left p-2" src="@item.Image" height="150" />
+        </td>
+        @if (User.IsInRole("Admin"))
+        {
             <td>
-                @Html.DisplayFor(modelItem => item.AnimeId)
+                @Html.ActionLink("Edit", "Edit", new {  id=item.AnimeId }) |
+                @Html.ActionLink("Details", "Details", new {id=item.AnimeId }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.AnimeId })
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimeName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AnimeDescription)
-            </td>
-            <td>
-                <img class="float-left p-2" src="@imageUrl" height="150" />
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
-        </tr>
+        }
+       
+    </tr>
 }
     </tbody>
 </table>
