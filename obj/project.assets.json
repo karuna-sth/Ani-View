@@ -10260,11 +10260,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\6th sem\\NCCPratical\\AniView\\AniView.csproj",
+      "projectUniqueName": "E:\\6th sem\\NCCPratical\\Ani-View\\AniView.csproj",
       "projectName": "AniView",
-      "projectPath": "E:\\6th sem\\NCCPratical\\AniView\\AniView.csproj",
+      "projectPath": "E:\\6th sem\\NCCPratical\\Ani-View\\AniView.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "E:\\6th sem\\NCCPratical\\AniView\\obj\\",
+      "outputPath": "E:\\6th sem\\NCCPratical\\Ani-View\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

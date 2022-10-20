@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sXQYD1uCs7HgfkjscBc4XmkVUtJZeX1+d50wahrnSqZ8KLt9vjpVS/hyOPWz5vfpcKwo6fOLNoQ/C1kLJ6Rz9w==",
+  "dgSpecHash": "9AZKMIin2VMuK2GO4LcApO5dU7onpERhxOtq3fiCqE6dgLi+wMkgQap3BOt2fBbsf9E17Fq0SlpD0jYKBoRkEw==",
   "success": true,
-  "projectFilePath": "E:\\6th sem\\NCCPratical\\AniView\\AniView.csproj",
+  "projectFilePath": "E:\\6th sem\\NCCPratical\\Ani-View\\AniView.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
